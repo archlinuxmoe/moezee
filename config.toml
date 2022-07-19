@@ -1,0 +1,54 @@
+baseURL = "https://moezee.space"
+languageCode = "en-us"
+title = "Moepository"
+theme = "cactus"
+copyright = "false" # cactus will use title if copyright is not set
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Repository"
+url = "https://pkgs.moezee.space"
+weight = 3
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+
+  colortheme = "light"
+  rss = true
+  showAllPostsArchive = false # default
+
+  # Home page settings
+  description = "Moezee is a repository of Arch Linux packages that was created for personal use. Contains packages from AUR (x86_64 only)."
+  mainSection = "changelog" # your main section
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = true # show tags overview by default.
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/archlinuxmoe" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  [params.comments]
+    enabled = false

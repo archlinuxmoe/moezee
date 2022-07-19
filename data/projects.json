@@ -1,0 +1,19 @@
+{
+  "list": [
+    {
+      "name":"akebi",
+      "url":"https://github.com/herobuxx/akebi",
+      "desc":"Simple Bash Script to Show System Information"
+    },
+    {
+      "name":"ttf-sundanese-unicode",
+      "url":"https://www.kairaga.com/download/sundanese-unicode-2-0-ttf",
+      "desc":"Sundanese Unicode Font"
+    },
+    {
+      "name":"xampp",
+      "url":"https://www.apachefriends.org",
+      "desc":"A stand-alone LAMPP distribution"
+    }
+  ]
+}
