@@ -34,7 +34,7 @@ weight = 3
 
 [params]
 
-  colortheme = "light"
+  colortheme = "dark"
   rss = true
   showAllPostsArchive = false # default
 
